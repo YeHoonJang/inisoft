@@ -17,6 +17,6 @@ app = App(routes=routes, template_dir=TEMPLATE_DIR)
 
 
 if __name__ == '__main__':
-    app.serve('127.0.0.1', 5000, use_debugger=True)
+    app.serve('192.168.10.190', 5000, use_debugger=True)
 
 
